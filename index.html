@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>XILI</title>
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css"
+	/>
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/black.min.css"
+	/>
+	<link rel="stylesheet" href="https://static.slid.es/fonts/v3/montserrat/montserrat.css">
+	<style>
+		.reveal .slides {
+			font-family: monserrat, sans-serif;
+			color:black;
+			border-radius: 30px;
+			overflow: hidden;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.5 );
+			h1{
+				color: black;
+				font-size: 2rem;
+				font-family: monserrat, sans-serif;
+			}
+		}
+		
+		.reveal .slides section {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			align-items: center;
+		}
+		.logo-container img {
+			height: 30vh;
+			width: auto;
+		}
+		.text-container img {
+			width: 300px;
+			height: auto;
+		}
+		.split-container {
+			display: flex;
+			flex-direction: row;
+			height: 100%;
+			width: 100%;
+		}
+		.half-section {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 24px;
+		}
+		.left-section {
+			background-image: url("/assets/04_Fondo-pimientos.png");
+			background-clip: border-box;
+			flex: 0 0 20%;
+			background-size: cover;
+		}
+		.right-section {
+			flex: 0 0 80%;
+			border-radius: 30px;
+			flex-direction: column;
+			align-items: center;
+			background-color: whitesmoke;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section style="background-color: #d54d5d; border-radius: 30px">
+				<div class="logo-container">
+					<img src="/assets/rawXiliBlack.svg" alt="Chili Logo" />
+				</div>
+				<div class="logo-container">
+					<img src="/assets/02_logo-xili-SP.png" alt="Chili Logo" />
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section" style="justify-content: start;">
+						<img style="height: 190px;" src="/assets/rawXiliBlack.svg" alt="Chili Logo" />
+						<h1 style="color:black;font-family:Arial, , sans-serif;">Que somos?</h1>
+						<p style="color:black;font-weight: 100;width:50%;align-self;text-align: left;">
+							Nos constituimos como una red social que aprecia la autenticidad y la <strong>espontaneidad</strong>.
+						</h2>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1 style="color:black;">Que somos?</h1>
+						<ul>
+							<li>
+								<a href="#/1">Introducción al modelo de monetización</a>
+							</li>
+							<li><a href="#/2">Supuestos financieros iniciales</a></li>
+							<li><a href="#/3">Proyección de KPIs (12 meses)</a></li>
+							<li><a href="#/4">KPIs clave para medir el progreso</a></li>
+							<li><a href="#/5">Valor del modelo</a></li>
+							<li><a href="#/6">Siguientes pasos</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1>Proyecciones de Ingresos Totales (12 meses)</h1>
+						<p>Gráfico interactivo mostrando la evolución de los ingresos totales con un crecimiento del 25% mensual en usuarios activos:</p>
+						<div style="width: 80%; height: 300px;">
+							<canvas id="incomeChart"></canvas>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1>Supuestos financieros iniciales</h1>
+						<p>
+							Los supuestos financieros iniciales son fundamentales para
+							establecer una base sólida para el modelo de monetización.
+						</p>
+						<p>
+							Estos supuestos incluyen proyecciones de ingresos, costos y
+							márgenes de beneficio, así como la identificación de los
+							principales impulsores del crecimiento.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1>Proyección de KPIs (12 meses)</h1>
+						<p>
+							La proyección de KPIs es esencial para medir el rendimiento del
+							modelo de monetización a lo largo del tiempo.
+						</p>
+						<p>
+							Estos KPIs incluyen métricas como el crecimiento de usuarios,
+							la tasa de retención, el valor del cliente y los ingresos por
+							usuario.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1>KPIs clave para medir el progreso</h1>
+						<p>
+							Los KPIs clave son indicadores críticos que permiten evaluar el
+							progreso del modelo de monetización y su alineación con los
+							objetivos estratégicos.
+						</p>
+						<p>
+							Estos KPIs deben ser monitoreados regularmente y ajustados según
+							sea necesario para garantizar el éxito a largo plazo.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section">
+						<h1>Valor del modelo</h1>
+						<p>
+							El valor del modelo de monetización radica en su capacidad para
+							generar ingresos sostenibles y escalables a lo largo del tiempo.
+						</p>
+						<p>
+							Un modelo sólido no solo proporciona beneficios financieros, sino
+							que también mejora la experiencia del usuario y fomenta la
+							lealtad a la marca.
+						</p>
+					</div>
+				</div>
+			</section>
+			
+			<section style="background-color: #d54d5d; border-radius: 30px">
+				<div class="logo-container">
+					<img src="/assets/rawXiliBlack.svg" alt="Chili Logo" />
+				</div>
+				
+				<div class="logo-container">
+					<img src="/assets/02_logo-xili-SP.png" alt="Chili Logo" />
+				</div>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				
+				plugins: [
+				RevealZoom,
+				RevealNotes,
+				RevealSearch,
+				RevealMarkdown,
+				RevealHighlight,
+				],
+			});
+		</script>
+		<!-- Incluir Chart.js -->
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const ctx = document.getElementById('incomeChart').getContext('2d');
+				new Chart(ctx, {
+					type: 'line',
+					data: {
+						labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
+						datasets: [{
+							label: "Ingreso Total (€)",
+							data: [500, 625, 782, 976, 1220, 1525, 1894, 2350, 2918, 3625, 4454, 5482],
+							borderColor: "#000000", // Línea en negro
+							backgroundColor: "rgba(213, 77, 93, 0.2)", // Fondo del área
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1
+						}]
+					},
+					options: {
+						responsive: true,
+						maintainAspectRatio: false,
+						scales: {
+							y: {
+								beginAtZero: true,
+								title: {
+									display: true,
+									text: "Ingresos Totales (€)",
+									color: "#000000" // Título del eje Y en negro
+								},
+								ticks: {
+									color: "#000000" // Ticks del eje Y en negro
+								}
+							},
+							x: {
+								title: {
+									display: true,
+									text: "Meses",
+									color: "#000000" // Título del eje X en negro
+								},
+								ticks: {
+									color: "#000000" // Ticks del eje X en negro
+								}
+							}
+						},
+						plugins: {
+							legend: {
+								labels: {
+									color: "#000000" // Leyenda en negro
+								}
+							}
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+	</html>
+	
