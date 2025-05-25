@@ -82,6 +82,18 @@
 					<img src="assets/02_logo-xili-SP.png" alt="Chili Logo" />
 				</div>
 			</section>
+				<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section" style="justify-content: start; background: linear-gradient(rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url('assets/04_Fondo-pimientos.png'); background-size: cover;">
+						<img style="height: 190px; margin-top: 10%;" src="assets/rawXiliBlack.svg" alt="Chili Logo" />
+						<p style="color: black; font-size: 3rem;">¿Quiénes somos?</p>
+						<p style="color: black; font-weight: 100; width: 50%; text-align: left;">
+							Somos un equipo de tres ingenieros con experiencia en el <strong style="color: #F25B50;">CERN</strong>, apasionados por la innovación y la tecnología. Hemos unido nuestro conocimiento para crear <strong style="color: #F25B50;">Xili</strong>, una plataforma que redefine la autenticidad en las redes sociales.
+						</p>
+					</div>
+				</div>
+			</section>
 			<section >
 				<div class="split-container">
 					<div class="half-section left-section"></div>
@@ -128,7 +140,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>	
 			<section>
 				<div class="split-container">
 					<div class="half-section left-section"></div>
@@ -151,22 +163,98 @@
 					</div>
 				</div>
 			</section>
+						<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section" style="justify-content: center; background: linear-gradient(rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url('/assets/04_Fondo-pimientos.png'); background-size: cover;">
+						<div style="width: 75%; text-align: left; justify-items: center;">
+							<p style="color: black; font-size: 3rem; text-align: center;">Proyección Conservadora</p>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-bottom: 20px;">
+								Escenario conservador con 15% de crecimiento mensual, CPM de $5, y picos de marketing (50% en mes 4, 75% en mes 8).
+							</p>
+							<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+								<div style="background-color: rgba(213, 77, 93, 0.1); padding: 10px 20px; border-radius: 10px; text-align: center;">
+									<p style="color: #F25B50; font-size: 1.1rem; font-weight: bold; margin: 0;">Mes 12: 7,598 usuarios y €3,799</p>
+								</div>
+							</div>
+							<div style="width: 100%; height: 300px;">
+								<canvas id="conservativeChart"></canvas>
+							</div>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-top: 10px;">
+								El gráfico muestra el crecimiento de usuarios activos (eje derecho) y los ingresos totales (eje izquierdo) con campañas de marketing en los meses 4 y 8.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section>
 				<div class="split-container">
 					<div class="half-section left-section"></div>
 					<div class="half-section right-section" style="justify-content: center; background: linear-gradient(rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url('/assets/04_Fondo-pimientos.png'); background-size: cover;">
 						<div style="width: 75%; text-align: left; justify-items: center;">
-							<p style="color:black;font-size: 3rem;text-align: center;">Proyección de Ingresos para el Primer Año</p>
-							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-bottom: 20px;">Proyección basada en un crecimiento mensual sostenido del 25% para usuarios activos e ingresos totales.</p>
+							<p style="color: black; font-size: 3rem; text-align: center;">Proyección Base</p>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-bottom: 20px;">
+								Escenario base con 25% de crecimiento mensual, CPM de $10, y picos de marketing (50% en mes 4, 75% en mes 8).
+							</p>
 							<div style="display: flex; justify-content: center; margin-bottom: 20px;">
 								<div style="background-color: rgba(213, 77, 93, 0.1); padding: 10px 20px; border-radius: 10px; text-align: center;">
-									<p style="color: #F25B50; font-size: 1.1rem; font-weight: bold; margin: 0;">Mes 12: 11,640 usuarios y €5,819</p>
+									<p style="color: #F25B50; font-size: 1.1rem; font-weight: bold; margin: 0;">Mes 12: 11,641 usuarios y €11,641</p>
 								</div>
 							</div>
 							<div style="width: 100%; height: 300px;">
-								<canvas id="incomeChart"></canvas>
+								<canvas id="baselineChart"></canvas>
 							</div>
-							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-top: 10px;">El gráfico muestra el crecimiento de usuarios activos (eje derecho) y los ingresos totales (eje izquierdo) durante 12 meses, asumiendo un incremento constante del 25% mensual.</p>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-top: 10px;">
+								El gráfico muestra el crecimiento de usuarios activos (eje derecho) y los ingresos totales (eje izquierdo) con campañas de marketing en los meses 4 y 8.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section" style="justify-content: center; background: linear-gradient(rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url('/assets/04_Fondo-pimientos.png'); background-size: cover;">
+						<div style="width: 75%; text-align: left; justify-items: center;">
+							<p style="color: black; font-size: 3rem; text-align: center;">Proyección Optimista</p>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-bottom: 20px;">
+								Escenario optimista con 35% de crecimiento mensual, CPM de $15, y picos de marketing (50% en mes 4, 75% en mes 8).
+							</p>
+							<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+								<div style="background-color: rgba(213, 77, 93, 0.1); padding: 10px 20px; border-radius: 10px; text-align: center;">
+									<p style="color: #F25B50; font-size: 1.1rem; font-weight: bold; margin: 0;">Mes 12: 20,645 usuarios y €30,968</p>
+								</div>
+							</div>
+							<div style="width: 100%; height: 300px;">
+								<canvas id="optimisticChart"></canvas>
+							</div>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-top: 10px;">
+								El gráfico muestra el crecimiento de usuarios activos (eje derecho) y los ingresos totales (eje izquierdo) con campañas de marketing en los meses 4 y 8.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="split-container">
+					<div class="half-section left-section"></div>
+					<div class="half-section right-section" style="justify-content: center; background: linear-gradient(rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url('/assets/04_Fondo-pimientos.png'); background-size: cover;">
+						<div style="width: 75%; text-align: left; justify-items: center;">
+							<p style="color: black; font-size: 3rem; text-align: center;">Comparación de Escenarios</p>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-bottom: 20px;">
+								Proyección basada en tres escenarios: Conservador (15% crecimiento, CPM $5), Base (25% crecimiento, CPM $10) y Optimista (35% crecimiento, CPM $15). Incluye picos de marketing en los meses 4 (50%) y 8 (75%).
+							</p>
+							<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+								<div style="background-color: rgba(213, 77, 93, 0.1); padding: 10px 20px; border-radius: 10px; text-align: center;">
+									<p style="color: #F25B50; font-size: 1.1rem; font-weight: bold; margin: 0;">Mes 12: 7,598–20,645 usuarios y €3,799–€30,968</p>
+								</div>
+							</div>
+							<div style="width: 100%; height: 300px;">
+								<canvas id="combinedChart"></canvas>
+							</div>
+							<p style="color: black; font-size: 1rem; text-align: center; font-weight: 100; margin-top: 10px;">
+								El gráfico compara los ingresos totales (eje izquierdo) de los tres escenarios y el crecimiento de usuarios activos (eje derecho, escenario base) durante 12 meses.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -223,19 +311,110 @@
 			});
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-				const ctx = document.getElementById('incomeChart').getContext('2d');
-				new Chart(ctx, {
-					type: 'line',
-					data: {
-						labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
-						datasets: [
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.2.1/dist/chartjs-plugin-annotation.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Common chart options for all scenarios
+			const commonOptions = {
+				responsive: true,
+				maintainAspectRatio: false,
+				scales: {
+					'y-income': {
+						type: 'linear',
+						position: 'left',
+						beginAtZero: true,
+						title: {
+							display: true,
+							text: "Ingresos Totales (€)",
+							color: "#000000"
+						},
+						ticks: {
+							color: "#000000"
+						},
+						grid: {
+							drawOnChartArea: true
+						}
+					},
+					'y-users': {
+						type: 'linear',
+						position: 'right',
+						beginAtZero: true,
+						title: {
+							display: true,
+							text: "Usuarios Activos",
+							color: "#1E90FF"
+						},
+						ticks: {
+							color: "#1E90FF"
+						},
+						grid: {
+							drawOnChartArea: false
+						}
+					},
+					x: {
+						title: {
+							display: true,
+							text: "Meses",
+							color: "#000000"
+						},
+						ticks: {
+							color: "#000000"
+						}
+					}
+				},
+				plugins: {
+					legend: {
+						labels: {
+							color: "#000000"
+						}
+					},
+					annotation: {
+						annotations: {
+							line1: {
+								type: 'line',
+								xMin: 'Mes 4',
+								xMax: 'Mes 4',
+								borderColor: '#F25B50',
+								borderWidth: 2,
+								label: {
+									content: 'Campaña de Marketing',
+									enabled: true,
+									position: 'top',
+									backgroundColor: 'rgba(213, 77, 93, 0.8)',
+									color: '#FFFFFF'
+								}
+							},
+							line2: {
+								type: 'line',
+								xMin: 'Mes 8',
+								xMax: 'Mes 8',
+								borderColor: '#F25B50',
+								borderWidth: 2,
+								label: {
+									content: 'Campaña de Marketing',
+									enabled: true,
+									position: 'top',
+									backgroundColor: 'rgba(213, 77, 93, 0.8)',
+									color: '#FFFFFF'
+								}
+							}
+						}
+					}
+				}
+			};
+
+			// Conservative Chart
+			const conservativeCtx = document.getElementById('conservativeChart').getContext('2d');
+			new Chart(conservativeCtx, {
+				type: 'line',
+				data: {
+					labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
+					datasets: [
 						{
-							label: "Ingreso Total (€)",
-							data: [500, 625, 782, 976, 1220, 1525, 1894, 2350, 2918, 3625, 4454, 5482],
-							borderColor: "#000000", 
-							backgroundColor: "rgba(213, 77, 93, 0.2)", 
+							label: "Ingresos Conservador (€, CPM $5)",
+							data: [500, 575, 661, 1005, 1156, 1329, 1528, 2173, 2499, 2874, 3305, 3799],
+							borderColor: "#000000",
+							backgroundColor: "rgba(213, 77, 93, 0.2)",
 							borderWidth: 2,
 							fill: true,
 							tension: 0.1,
@@ -243,73 +422,218 @@
 						},
 						{
 							label: "Usuarios Activos",
-							data: [1000, 1250, 1563, 1953, 2441, 3051, 3814, 4768, 5960, 7450, 9313, 11641],
+							data: [1000, 1150, 1323, 2010, 2312, 2658, 3057, 4346, 4998, 5748, 6609, 7598],
 							borderColor: "#1E90FF",
 							borderWidth: 2,
 							fill: false,
 							tension: 0.1,
 							yAxisID: 'y-users'
 						}
-						]
-					},
-					options: {
-						responsive: true,
-						maintainAspectRatio: false,
-						scales: {
-							'y-income': {
-								type: 'linear',
-								position: 'left',
-								beginAtZero: true,
-								title: {
-									display: true,
-									text: "Ingresos Totales (€)",
-									color: "#000000"
-								},
-								ticks: {
-									color: "#000000"
-								},
-								grid: {
-									drawOnChartArea: true
-								}
+					]
+				},
+				options: commonOptions
+			});
+
+			// Baseline Chart
+			const baselineCtx = document.getElementById('baselineChart').getContext('2d');
+			new Chart(baselineCtx, {
+				type: 'line',
+				data: {
+					labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
+					datasets: [
+						{
+							label: "Ingresos Base (€, CPM $10)",
+							data: [1000, 1250, 1563, 2930, 3663, 4582, 5728, 7970, 9963, 12453, 15566, 11641],
+							borderColor: "#000000",
+							backgroundColor: "rgba(213, 77, 93, 0.2)",
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1,
+							yAxisID: 'y-income'
+						},
+						{
+							label: "Usuarios Activos",
+							data: [1000, 1250, 1563, 2930, 3663, 4582, 5728, 7970, 9963, 12453, 15566, 11641],
+							borderColor: "#1E90FF",
+							borderWidth: 2,
+							fill: false,
+							tension: 0.1,
+							yAxisID: 'y-users'
+						}
+					]
+				},
+				options: commonOptions
+			});
+
+			// Optimistic Chart
+			const optimisticCtx = document.getElementById('optimisticChart').getContext('2d');
+			new Chart(optimisticCtx, {
+				type: 'line',
+				data: {
+					labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
+					datasets: [
+						{
+							label: "Ingresos Optimista (€, CPM $15)",
+							data: [1500, 2025, 2734, 5535, 7462, 10074, 13599, 18409, 24852, 33550, 45293, 30968],
+							borderColor: "#000000",
+							backgroundColor: "rgba(213, 77, 93, 0.2)",
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1,
+							yAxisID: 'y-income'
+						},
+						{
+							label: "Usuarios Activos",
+							data: [1000, 1350, 1823, 3690, 4977, 6718, 9066, 12269, 16563, 22360, 30186, 20645],
+							borderColor: "#1E90FF",
+							borderWidth: 2,
+							fill: false,
+							tension: 0.1,
+							yAxisID: 'y-users'
+						}
+					]
+				},
+				options: commonOptions
+			});
+
+			// Combined Chart
+			const combinedCtx = document.getElementById('combinedChart').getContext('2d');
+			new Chart(combinedCtx, {
+				type: 'line',
+				data: {
+					labels: ["Mes 1", "Mes 2", "Mes 3", "Mes 4", "Mes 5", "Mes 6", "Mes 7", "Mes 8", "Mes 9", "Mes 10", "Mes 11", "Mes 12"],
+					datasets: [
+						{
+							label: "Ingresos Conservador (€, CPM $5)",
+							data: [500, 575, 661, 1005, 1156, 1329, 1528, 2173, 2499, 2874, 3305, 3799],
+							borderColor: "#FF6347",
+							backgroundColor: "rgba(255, 99, 71, 0.2)",
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1,
+							yAxisID: 'y-income'
+						},
+						{
+							label: "Ingresos Base (€, CPM $10)",
+							data: [1000, 1250, 1563, 2930, 3663, 4582, 5728, 7970, 9963, 12453, 15566, 11641],
+							borderColor: "#000000",
+							backgroundColor: "rgba(213, 77, 93, 0.2)",
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1,
+							yAxisID: 'y-income'
+						},
+						{
+							label: "Ingresos Optimista (€, CPM $15)",
+							data: [1500, 2025, 2734, 5535, 7462, 10074, 13599, 18409, 24852, 33550, 45293, 30968],
+							borderColor: "#32CD32",
+							backgroundColor: "rgba(50, 205, 50, 0.2)",
+							borderWidth: 2,
+							fill: true,
+							tension: 0.1,
+							yAxisID: 'y-income'
+						},
+						{
+							label: "Usuarios Activos (Escenario Base)",
+							data: [1000, 1250, 1563, 2930, 3663, 4582, 5728, 7970, 9963, 12453, 15566, 11641],
+							borderColor: "#1E90FF",
+							borderWidth: 2,
+							fill: false,
+							tension: 0.1,
+							yAxisID: 'y-users'
+						}
+					]
+				},
+				options: {
+					responsive: true,
+					maintainAspectRatio: false,
+					scales: {
+						'y-income': {
+							type: 'linear',
+							position: 'left',
+							beginAtZero: true,
+							title: {
+								display: true,
+								text: "Ingresos Totales (€)",
+								color: "#000000"
 							},
-							'y-users': {
-								type: 'linear',
-								position: 'right',
-								beginAtZero: true,
-								title: {
-									display: true,
-									text: "Usuarios Activos",
-									color: "#1E90FF"
-								},
-								ticks: {
-									color: "#1E90FF"
-								},
-								grid: {
-									drawOnChartArea: false
-								}
+							ticks: {
+								color: "#000000"
 							},
-							x: {
-								title: {
-									display: true,
-									text: "Meses",
-									color: "#000000"
-								},
-								ticks: {
-									color: "#000000"
-								}
+							grid: {
+								drawOnChartArea: true
 							}
 						},
-						plugins: {
-							legend: {
-								labels: {
-									color: "#000000"
+						'y-users': {
+							type: 'linear',
+							position: 'right',
+							beginAtZero: true,
+							title: {
+								display: true,
+								text: "Usuarios Activos",
+								color: "#1E90FF"
+							},
+							ticks: {
+								color: "#1E90FF"
+							},
+							grid: {
+								drawOnChartArea: false
+							}
+						},
+						x: {
+							title: {
+								display: true,
+								text: "Meses",
+								color: "#000000"
+							},
+							ticks: {
+								color: "#000000"
+							}
+						}
+					},
+					plugins: {
+						legend: {
+							labels: {
+								color: "#000000"
+							}
+						},
+						annotation: {
+							annotations: {
+								line1: {
+									type: 'line',
+									xMin: 'Mes 4',
+									xMax: 'Mes 4',
+									borderColor: '#F25B50',
+									borderWidth: 2,
+									label: {
+										content: 'Campaña de Marketing',
+										enabled: true,
+										position: 'top',
+										backgroundColor: 'rgba(213, 77, 93, 0.8)',
+										color: '#FFFFFF'
+									}
+								},
+								line2: {
+									type: 'line',
+									xMin: 'Mes 8',
+									xMax: 'Mes 8',
+									borderColor: '#F25B50',
+									borderWidth: 2,
+									label: {
+										content: 'Campaña de Marketing',
+										enabled: true,
+										position: 'top',
+										backgroundColor: 'rgba(213, 77, 93, 0.8)',
+										color: '#FFFFFF'
+									}
 								}
 							}
 						}
 					}
-				});
+				}
 			});
-		</script>
+		});
+	</script>
 	</body>
 	</html>
 	
